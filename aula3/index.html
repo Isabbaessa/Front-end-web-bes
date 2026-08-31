@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>charset</title>
+</head>
+<body>
+    <header>
+        <h1>Recrutamento Online</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Cdastre seu curriculo</h2>
+            <form action="#" method="get">
+                <p>Preencha o formulario para se candidatar á vaga</p>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label for="nome_id"> Nome completo:</label>
+                        <input id="nome_id" name="nome" type="text">
+                    </div>
+                    <div>
+                        <label for="telefone_id">Telefone: </label>
+                        <input type="number" name="telefone" id="telefone_id">
+                    </div>
+                    <div>
+                        <label for="email_id">Email: </label>
+                        <input type="email" name="email" id="email_id">
+                    </div>
+                    <div>
+                        <label for="data_nascimento">Data de Nascimento</label>
+                        <input type="date" name="data" id="data_nascimento">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <div>
+                        <label for="logadouro_id">Logradouro</label>
+                        <input type="text" name="logadouro" id="logadouro_id">
+                    </div>
+                    <div>
+                        <label for="cidade_id">Cidade-UF</label>
+                        <input type="text" name="cidade" id="cidade_id">
+                    </div>
+                    <div>
+                        <label for="numero_id">Num</label>
+                        <input type="number" name="numero" id="numero_id">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Biografia</legend>
+                    <div>
+                        <label for="resumo_id">Fale sobre Você</label>
+                        <textarea name="resumo"
+                                  id="resumo_id"
+                                  rows="15" 
+                                  cols="50"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Nivel Pretendido</legend>
+                    <div>
+                        <input id="estagiario_id" name="nivel" type="radio" value="estagiario">
+                        <label for="estagiario_id">Estagiario</label>
+                    </div>
+                    <div>
+                        <input id="junior_id" type="radio" value="junior">
+                        <label for="junior_id">Junior</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Tecnologias</legend>
+                    <div>
+                        <input type="checkbox" id="tec_html_id" name="tecnologia" value="html">
+                        <label for="tec_html_id">HTML</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tec_css_id" name="tecnologia" value="css">
+                        <label for="tec_css_id">CSS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tec_js_id" name="tecnologia" value="js">
+                        <label for="tec_js_id">Java Script</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Grau de Instrução</legend>
+                    <div>
+                        <label for="escolaridade_id">Escolaridade: </label>
+                        <select name="escolaridade" id="escolaridade_id">
+                            <option value="medio">Ensino Medio</option>
+                            <option value="graduacao">Graduação</option>
+                            <option value="pos">Pós-Graduação</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div>
+                    <button type="reset">Limpar dados</button>
+                    <button type="submit">Enviar candidatura</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos direitos reservados</p>
+    </footer>
+</body>
+</html>
