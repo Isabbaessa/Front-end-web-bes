@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Personalize</title>
+</head>
+<body>
+    <header>
+        <h1>Personalize o personagem</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Assinale confirme as caracteristicas</h2>
+            <form action="https://postman-echo.com/post" method="post" enctype="multipart/form-data"></form>
+            <p>Preencha as requisições necessarias de personalização</p>
+                <div>
+                    <label for="nome_id">Nome</label>
+                    <input type="text" id="nome_id" name="nome">
+                    <label for="sobrenome_id">Sobrenome</label>
+                    <input type="text" id="sobrenome_id" name="sobrenome">
+                </div>
+            <fieldset>
+                <legend>Bases</legend>
+                <div>
+                    <label for="raca_id">Raça</label>
+                    <select name="raca" id="raca_id">
+                        <option value="preto">Preto</option>
+                        <option value="parda">Parda</option>
+                        <option value="branco">Branco</option>
+                        <option value="indigena">Indigena</option>
+                        <option value="amarelo">Amarelo</option>
+                    </select>
+                </div>
+            </fieldset>
+        </section>
+    </main>
+    
+</body>
+</html>
