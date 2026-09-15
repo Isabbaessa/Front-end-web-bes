@@ -16,6 +16,7 @@
                 <div>
                     <label for="nome_id">Nome</label>
                     <input type="text" id="nome_id" name="nome">
+
                     <label for="sobrenome_id">Sobrenome</label>
                     <input type="text" id="sobrenome_id" name="sobrenome">
                 </div>
@@ -24,7 +25,11 @@
                     <legend>Perguntas do Quiz</legend>
                 
                     <div>
-                        <p><label for="frase_id">Quem fala a frase "Regras foram feitas para ser quebradas... Igual a prédios! Ou pessoas!"?</label></p>
+                        <p>
+                            <label for="frase_id">
+                                Quem fala a frase "Regras foram feitas para ser quebradas... Igual a prédios! Ou pessoas!"?
+                            </label>
+                        </p>
                         <select name="frase_campeao" id="frase_id">
                             <option value="vi">Vi</option>
                             <option value="jinx">Jinx</option>
@@ -35,6 +40,7 @@
 
                     <div>
                         <p>Qual destes campeões utiliza o poder de manipular o tempo?</p>
+
                         <input type="radio" id="p_ekko" name="poder_tempo" value="ekko">
                         <label for="p_ekko">Ekko</label><br>
 
@@ -49,9 +55,13 @@
                     </div>
 
                     <div>
-                        <p><label for="adc_azul_id">Qual é a Atiradora (ADC) clássica que tem o cabelo azul e usa uma metralhadora/lança-mísseis?</label></p>
+                        <p>
+                            <label for="adc_azul_id">
+                                Qual é a Atiradora (ADC) clássica que tem o cabelo azul e usa uma metralhadora/lança-mísseis?
+                            </label>
+                        </p>
                         <select name="adc_cabelo_azul" id="adc_azul_id">
-                            <option value="ashes">Ashe</option>
+                            <option value="ashe">Ashe</option>
                             <option value="jinx">Jinx</option>
                             <option value="kaisa">Kai'Sa</option>
                             <option value="vayne">Vayne</option>
@@ -59,7 +69,11 @@
                     </div>
 
                     <div>
-                        <p><label for="posicao_id">Qual é a sua rota (role) principal no jogo?</label></p>
+                        <p>
+                            <label for="posicao_id">
+                                Qual é a sua rota (role) principal no jogo?
+                            </label>
+                        </p>
                         <select name="posicao_preferida" id="posicao_id">
                             <option value="top">Topo (Top)</option>
                             <option value="jungle">Caçador (Jungle)</option>
@@ -70,7 +84,11 @@
                     </div>
 
                     <div>
-                        <p><label for="clone_id">Qual destes personagens cria um clone de si mesmo?</label></p>
+                        <p>
+                            <label for="clone_id">
+                                Qual destes personagens cria um clone de si mesmo?
+                            </label>
+                        </p>
                         <select name="personagem_clone" id="clone_id">
                             <option value="shaco">Shaco</option>
                             <option value="garen">Garen</option>
@@ -78,6 +96,71 @@
                             <option value="lux">Lux</option>
                         </select>
                     </div>
+
+                    <div>
+                        <p>
+                            <label for="regiao_id">
+                                De qual região de Runeterra o campeão Garen é originário?
+                            </label>
+                        </p>
+                        <select name="regiao_garen" id="regiao_id">
+                            <option value="demacia">Demacia</option>
+                            <option value="noxus">Noxus</option>
+                            <option value="ionia">Ionia</option>
+                            <option value="piltover">Piltover</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <p>
+                            Qual destes campeões é conhecido por usar uma katana?
+                        </p>
+
+                        <input type="radio" id="katana_yasuo" name="campeao_katana" value="yasuo">
+                        <label for="katana_yasuo">Yasuo</label><br>
+
+                        <input type="radio" id="katana_braum" name="campeao_katana" value="braum">
+                        <label for="katana_braum">Braum</label><br>
+
+                        <input type="radio" id="katana_malphite" name="campeao_katana" value="malphite">
+                        <label for="katana_malphite">Malphite</label><br>
+
+                        <input type="radio" id="katana_thresh" name="campeao_katana" value="thresh">
+                        <label for="katana_thresh">Thresh</label>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label for="dragao_id">
+                                Qual destes monstros épicos aparece no Covil do Dragão?
+                            </label>
+                        </p>
+                        <select name="monstro_dragao" id="dragao_id">
+                            <option value="dragao_elemental">Dragão Elemental</option>
+                            <option value="baron">Barão Na'Shor</option>
+                            <option value="herald">Arauto do Vale</option>
+                            <option value="kraken">Kraken</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <p>
+                            Quem é conhecido como o "Senhor das Trevas" em League of Legends?
+                        </p>
+
+                        <input type="radio" id="senhor_veigar" name="senhor_trevas" value="veigar">
+                        <label for="senhor_veigar">Veigar</label><br>
+
+                        <input type="radio" id="senhor_lux" name="senhor_trevas" value="lux">
+                        <label for="senhor_lux">Lux</label><br>
+
+                        <input type="radio" id="senhor_teemo" name="senhor_trevas" value="teemo">
+                        <label for="senhor_teemo">Teemo</label><br>
+
+                        <input type="radio" id="senhor_taric" name="senhor_trevas" value="taric">
+                        <label for="senhor_taric">Taric</label>
+                    </div>
+
                 </fieldset>
 
                 <br>
